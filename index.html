@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivero La Avenida Violeta - Plantas que transforman tu espacio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <span class="logo-icon">🌿</span>
+                    <span class="logo-text">Vivero La Avenida Violeta</span>
+                </a>
+                <button class="nav-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto" class="nav-cta">Contactar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Transforma tu hogar con <span class="highlight">plantas vivas</span></h1>
+            <p class="hero-subtitle">Más de 15 años cuidando las mejores especies para tu jardín, balcón o interior. Asesoramiento personalizado y plantas garantizadas.</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary">
+                    <span>💬</span> Escríbenos por WhatsApp
+                </a>
+                <a href="#catalogo" class="btn btn-secondary">Ver catálogo</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Años de experiencia</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Clientes felices</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">200+</span>
+                    <span class="stat-label">Especies disponibles</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="hero-image-wrapper">
+                <div class="plant-decoration plant-1">🌿</div>
+                <div class="plant-decoration plant-2">🪴</div>
+                <div class="plant-decoration plant-3">🌱</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section id="beneficios" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">¿Por qué elegirnos?</span>
+                <h2 class="section-title">Lo que nos hace diferentes</h2>
+                <p class="section-subtitle">Nos apasiona conectar a las personas con la naturaleza, ofreciendo plantas saludables y un servicio excepcional</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">🌱</div>
+                    <h3>Plantas Garantizadas</h3>
+                    <p>Todas nuestras plantas pasan un control de calidad riguroso. Si tu planta no sobrevive los primeros 30 días, te la reemplazamos.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">🚚</div>
+                    <h3>Entrega a Domicilio</h3>
+                    <p>Llevamos tus plantas con cuidado hasta tu puerta. Envíos gratis en compras mayores a $50. Embalaje especial protegido.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">👨‍🌾</div>
+                    <h3>Asesoría Experta</h3>
+                    <p>Nuestros jardineros te ayudan a elegir la planta perfecta para tu espacio y te enseñan a cuidarla correctamente.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">♻️</div>
+                    <h3>Prácticas Sostenibles</h3>
+                    <p>Usamos fertilizantes orgánicos, macetas biodegradables y promovemos el compostaje. Cuidamos el planeta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catálogo -->
+    <section id="catalogo" class="catalog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestro catálogo</span>
+                <h2 class="section-title">Encuentra tu planta ideal</h2>
+                <p class="section-subtitle">Selección de nuestras plantas más populares, cuidadosamente cultivadas</p>
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todas</button>
+                <button class="filter-btn" data-filter="interior">Interior</button>
+                <button class="filter-btn" data-filter="exterior">Exterior</button>
+                <button class="filter-btn" data-filter="suculentas">Suculentas</button>
+            </div>
+            <div class="plants-grid">
+                <div class="plant-card" data-category="interior">
+                    <div class="plant-image">
+                        <span class="plant-emoji">🌿</span>
+                        <span class="plant-badge">Más vendida</span>
+                    </div>
+                    <div class="plant-info">
+                        <span class="plant-category">Interior</span>
+                        <h3>Monstera Deliciosa</h3>
+                        <p>La reina de las plantas de interior. Hojas grandes y decorativas que añaden un toque tropical.</p>
+                        <div class="plant-footer">
+                            <span class="plant-price">$45.00</span>
+                            <button class="btn-add">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plant-card" data-category="interior">
+                    <div class="plant-image">
+                        <span class="plant-emoji">🍃</span>
+                    </div>
+                    <div class="plant-info">
+                        <span class="plant-category">Interior</span>
+                        <h3>Pothos (Potus)</h3>
+                        <p>Planta colgante muy resistente. Ideal para principiantes y purifica el aire.</p>
+                        <div class="plant-footer">
+                            <span class="plant-price">$25.00</span>
+                            <button class="btn-add">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plant-card" data-category="suculentas">
+                    <div class="plant-image">
+                        <span class="plant-emoji">🌵</span>
+                        <span class="plant-badge">Oferta</span>
+                    </div>
+                    <div class="plant-info">
+                        <span class="plant-category">Suculentas</span>
+                        <h3>Echeveria Elegans</h3>
+                        <p>Roseta perfecta de tonos azul-verdoso. Muy decorativa y de fácil cuidado.</p>
+                        <div class="plant-footer">
+                            <span class="plant-price">$18.00</span>
+                            <button class="btn-add">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plant-card" data-category="exterior">
+                    <div class="plant-image">
+                        <span class="plant-emoji">🌺</span>
+                    </div>
+                    <div class="plant-info">
+                        <span class="plant-category">Exterior</span>
+                        <h3>Hibiscus Rosa</h3>
+                        <p>Espectaculares flores grandes en tonos rosados. Perfecta para balcones y jardines.</p>
+                        <div class="plant-footer">
+                            <span class="plant-price">$35.00</span>
+                            <button class="btn-add">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plant-card" data-category="interior">
+                    <div class="plant-image">
+                        <span class="plant-emoji">🌴</span>
+                    </div>
+                    <div class="plant-info">
+                        <span class="plant-category">Interior</span>
+                        <h3>Palma Areca</h3>
+                        <p>Elegante palmera de interior. Crece hasta 2 metros y purifica el aire.</p>
+                        <div class="plant-footer">
+                            <span class="plant-price">$55.00</span>
+                            <button class="btn-add">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="plant-card" data-category="exterior">
+                    <div class="plant-image">
+                        <span class="plant-emoji">🌻</span>
+                        <span class="plant-badge">Nueva</span>
+                    </div>
+                    <div class="plant-info">
+                        <span class="plant-category">Exterior</span>
+                        <h3>Lavanda Francesa</h3>
+                        <p>Aroma relajante y flores aromáticas. Ideal para jardines y terrazas soleadas.</p>
+                        <div class="plant-footer">
+                            <span class="plant-price">$28.00</span>
+                            <button class="btn-add">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog-cta">
+                <p>¿No encuentras lo que buscas?</p>
+                <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary">
+                    <span>💬</span> Consúltanos por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Inspiración</span>
+                <h2 class="section-title">Galería de espacios verdes</h2>
+                <p class="section-subtitle">Mira cómo nuestros clientes han transformado sus hogares</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <div class="gallery-placeholder">
+                        <span>🌿</span>
+                        <p>Jardín interior tropical</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🪴</span>
+                        <p>Balcón urbano</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🌱</span>
+                        <p>Rincón de suculentas</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🌸</span>
+                        <p>Terraza florecida</p>
+                    </div>
+                </div>
+                <div class="gallery-item wide">
+                    <div class="gallery-placeholder">
+                        <span>🏡</span>
+                        <p>Jardín de entrada</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonios</span>
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-subtitle">Experiencias reales de amantes de las plantas</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Las plantas llegaron en perfectas condiciones. La Monstera que compré ha crecido enormemente en solo 3 meses. El asesoramiento que me dieron fue clave."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MR</div>
+                            <div class="author-info">
+                                <span class="author-name">María Rodríguez</span>
+                                <span class="author-role">Cliente desde 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Compré online por primera vez y quedé encantada. El empaque era súper protector y las plantas venían más sanas que en otros viveros donde fui personalmente."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">LP</div>
+                            <div class="author-info">
+                                <span class="author-name">Laura Pérez</span>
+                                <span class="author-role">Cliente desde 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">"Mi balcón era un desastre, ahora es un oasis verde. Los chicos del vivero me ayudaron a elegir plantas perfectas para poca luz. ¡Me salvaron!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">CM</div>
+                            <div class="author-info">
+                                <span class="author-name">Carlos Mendoza</span>
+                                <span class="author-role">Cliente desde 2022</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-nav">
+                <button class="testimonial-btn prev" aria-label="Anterior">←</button>
+                <button class="testimonial-btn next" aria-label="Siguiente">→</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto / CTA -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <span class="section-tag">¿Listo para empezar?</span>
+                    <h2>Visítanos o escríbenos</h2>
+                    <p>Estamos aquí para ayudarte a encontrar las plantas perfectas para tu espacio. Contáctanos por WhatsApp para una atención rápida y personalizada.</p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <span>Av. Violeta 1234, Ciudad</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <span>+1 234 567 890</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <span>Lun-Sab: 9:00 - 18:00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <a href="https://wa.me/1234567890" target="_blank" class="btn btn-whatsapp">
+                        <span class="whatsapp-icon">💬</span>
+                        <div class="btn-content">
+                            <span class="btn-label">Escríbenos por</span>
+                            <span class="btn-text">WhatsApp</span>
+                        </div>
+                    </a>
+                    <p class="contact-note">Respuesta en menos de 1 hora</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">🌿</span>
+                        <span class="logo-text">Vivero La Avenida Violeta</span>
+                    </a>
+                    <p>Conectando personas con la naturaleza desde 2009. Plantas de calidad, asesoramiento experto y amor por lo verde.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Enlaces</h4>
+                        <ul>
+                            <li><a href="#inicio">Inicio</a></li>
+                            <li><a href="#catalogo">Catálogo</a></li>
+                            <li><a href="#beneficios">Beneficios</a></li>
+                            <li><a href="#galeria">Galería</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#">Asesoría personalizada</a></li>
+                            <li><a href="#">Diseño de jardines</a></li>
+                            <li><a href="#">Mantenimiento</a></li>
+                            <li><a href="#">Regalos corporativos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li>Av. Violeta 1234</li>
+                            <li>Ciudad, País</li>
+                            <li>info@viveroavenidavioleta.com</li>
+                            <li>+1 234 567 890</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Vivero La Avenida Violeta. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="WhatsApp">💬</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+        <span class="whatsapp-tooltip">¿Tienes dudas? Escríbenos</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
